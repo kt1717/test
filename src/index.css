@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.booklist{
+  width:90vw;
+  max-width:1170;
+  margin:5em auto;
+  display: grid;
+  gap:2rem;
+}
+
+.book{
+  background-color:  #c6e2ec;
+  /* color: #2d7086; */
+}
+
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {
+    height: 550px
+  }
+    
+  /* Set gray background color and 100% height */
+  .sidenav {
+    background-color:#baccde ;
+    height: 100%; /*會佔滿全螢幕的意思*/
+  }
+      
+  /* On small screens, set height to 'auto' for the grid */
+  @media screen and (max-width: 767px) {
+    .row.content {height: auto;} 
+  }
+
+  .well{
+    color: black;
+    background-color:#e0e0eb;
+   
+  }
